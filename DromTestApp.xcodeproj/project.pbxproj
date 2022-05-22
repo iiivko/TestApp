@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		E7978761283801680033BB56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7978760283801680033BB56 /* AppDelegate.swift */; };
-		E7978763283801680033BB56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7978762283801680033BB56 /* SceneDelegate.swift */; };
 		E7978765283801680033BB56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7978764283801680033BB56 /* ViewController.swift */; };
-		E7978768283801680033BB56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7978766283801680033BB56 /* Main.storyboard */; };
 		E797876A2838016B0033BB56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E79787692838016B0033BB56 /* Assets.xcassets */; };
 		E797876D2838016B0033BB56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E797876B2838016B0033BB56 /* LaunchScreen.storyboard */; };
+		E79787752838085F0033BB56 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79787742838085F0033BB56 /* ImageCollectionViewCell.swift */; };
+		E7978779283A41150033BB56 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7978778283A41150033BB56 /* ImageLoader.swift */; };
+		E797877B283AB3930033BB56 /* MoveToRightDeleteFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E797877A283AB3930033BB56 /* MoveToRightDeleteFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E797875D283801680033BB56 /* DromTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DromTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7978760283801680033BB56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E7978762283801680033BB56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E7978764283801680033BB56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E7978767283801680033BB56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E79787692838016B0033BB56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E797876C2838016B0033BB56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E797876E2838016B0033BB56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E79787742838085F0033BB56 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		E7978778283A41150033BB56 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		E797877A283AB3930033BB56 /* MoveToRightDeleteFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveToRightDeleteFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				E7978760283801680033BB56 /* AppDelegate.swift */,
-				E7978762283801680033BB56 /* SceneDelegate.swift */,
 				E7978764283801680033BB56 /* ViewController.swift */,
-				E7978766283801680033BB56 /* Main.storyboard */,
+				E797877A283AB3930033BB56 /* MoveToRightDeleteFlowLayout.swift */,
+				E79787742838085F0033BB56 /* ImageCollectionViewCell.swift */,
+				E7978778283A41150033BB56 /* ImageLoader.swift */,
 				E79787692838016B0033BB56 /* Assets.xcassets */,
 				E797876B2838016B0033BB56 /* LaunchScreen.storyboard */,
 				E797876E2838016B0033BB56 /* Info.plist */,
@@ -127,7 +130,6 @@
 			files = (
 				E797876D2838016B0033BB56 /* LaunchScreen.storyboard in Resources */,
 				E797876A2838016B0033BB56 /* Assets.xcassets in Resources */,
-				E7978768283801680033BB56 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +140,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E79787752838085F0033BB56 /* ImageCollectionViewCell.swift in Sources */,
+				E797877B283AB3930033BB56 /* MoveToRightDeleteFlowLayout.swift in Sources */,
 				E7978765283801680033BB56 /* ViewController.swift in Sources */,
+				E7978779283A41150033BB56 /* ImageLoader.swift in Sources */,
 				E7978761283801680033BB56 /* AppDelegate.swift in Sources */,
-				E7978763283801680033BB56 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E7978766283801680033BB56 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E7978767283801680033BB56 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E797876B2838016B0033BB56 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,9 +288,9 @@
 				INFOPLIST_FILE = DromTestApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,9 +316,9 @@
 				INFOPLIST_FILE = DromTestApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
